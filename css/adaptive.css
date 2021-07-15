@@ -1,0 +1,820 @@
+
+
+@media only screen and (max-width: 992px) {
+  .fixed__container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+      /* HEADER STYLES START */
+      .logo img {
+        width: 70px;
+    }
+
+    .menu__container {
+        padding-top: 30px;
+    }
+
+    .logo {
+        padding-left: 40px;
+    }
+
+    .header__menu{
+        display: none;
+    }
+
+    .burger-icon {
+        padding-right: 25px;
+        display: block;
+    }
+
+    .burger-icon span {
+        display: block;
+        height: 2px;
+        width: 24px;
+    }
+    /* HEADER STYLES END */
+
+    /* MAIN STYLES START */
+    .section__container {
+        display: block;
+        align-content: center;
+        padding-top: 50px;
+        margin: 0 auto;
+        justify-content: center;
+    }
+
+    .laptop{
+        padding: 0;
+        margin: 0 auto 40px auto;
+        text-align: center;
+    }
+
+    .right__part {
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .caption {
+        font-size: 4.5vw;
+    }
+
+    .description {
+        font-size: 2vw;
+        margin-bottom: 70px;
+        width: 100%;
+        padding-left: 35px;
+    }
+/* MAIN STYLES END */
+
+/* ABOUT STYLES START */
+    .about_section{
+      display: block;
+      align-content: center;
+      padding-top: 50px;
+      margin: 0 auto;
+      justify-content: center;
+    }
+
+    .about {
+      font-size: 3.5vw;
+    }
+
+    .about__text {
+      font-size: 1.8vw;
+      margin-bottom: 70px;
+
+    }
+
+
+/* ABOUT STYLES END */
+
+
+/* PROJECTS STYLES START */
+    .project {
+      display: block;
+      background-color: #34547A;
+      margin-top: -26px;
+      margin-bottom: 25px;
+    }
+  
+    .project__list {
+      height: 200px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      justify-items: center;
+  }
+
+    .project__item {
+      padding-top: 5px;
+
+  }
+
+  .project__item img {
+    width: 100px;
+  }
+/* PROJECTS STYLES END */
+
+/* SKILLS STYLES START */
+    .skills__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .skills__progress{
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .progress__title {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .skills_list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slkills__img {
+        max-width: 500px;
+        min-width: 350px;
+    }
+/* SKILLS STYLES END */    
+
+/* HOW STYLES START */
+
+.how__iwork {
+  background-color: #EEEFF1;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 96px;
+}
+
+.iframe{
+  width: 450px;
+  height: 350px;
+  border: none;
+}
+/* HOW STYLES END */ 
+
+/* STICKERS STYLES START */
+
+.portfolio__section {
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+
+.stickers__up, .stickers__down {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image__wrapper {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  background-color: rgba(52, 84, 122, 0.0);
+  transition: background-color 0.3s;
+}
+
+
+.windows__img li img {
+  width: 110px;
+  height: 70px;
+  margin-right: 7px;
+  margin-left: 23px;
+}
+/* STICKERS STYLES END */
+}
+
+
+@media only screen and (max-width: 768px) {
+
+.fixed__container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+      }
+
+/* HEADER STYLES START */
+.logo img {
+  width: 45px;
+}
+
+.menu__container {
+  padding-top: 30px;
+}
+
+.logo {
+  padding-left: 30px;
+}
+
+.header__menu{
+  display: none;
+}
+
+.burger-icon {
+  display: block;
+}
+
+.burger-icon span {
+  display: block;
+  height: 2px;
+  width: 24px;
+}
+/* HEADER STYLES END */
+
+/* MAIN STYLES START */
+.section__container {
+  display: block;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.laptop{
+  padding: 0;
+  margin: 0 auto 40px auto;
+  text-align: center;
+}
+
+.laptop img{
+  max-width: 320px;
+  max-height: 320px;
+}
+
+.right__part {
+  display: block;
+  margin: 0 auto;
+  align-self: center;
+}
+
+.caption {
+  margin-left: -40px;
+  font-size: 5vw;
+}
+
+.description {
+  padding-left: 50px;
+  width: 75%;
+  font-size: 2.5vw;
+}
+
+.button {
+  margin-left: -35px;
+  width: 160px;
+  height: 35px;
+}
+
+/* MAIN STYLES END */
+
+/* ABOUT STYLES START */
+.about_section{
+  display: block;
+  align-content: center;
+  padding-top: 50px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.about {
+  font-size: 24px;
+}
+
+.about__text {
+  width: 75%;
+  font-size: 2vw;
+  margin-bottom: 70px;
+  
+}
+/* ABOUT STYLES END */
+
+
+/* PROJECTS STYLES START */
+.project {
+  display: block;
+  background-color: #34547A;
+  margin-top: -26px;
+}
+  
+.project__list {
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+
+.project__item {
+  padding-top: 5px;
+}
+
+.project__item img {
+  width: 100px;
+}
+/* PROJECTS STYLES END */
+
+/* SKILLS STYLES START */
+.skills__container {
+  margin-top: -130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills__progress{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress__title {
+  font-size: 4.5vw;
+  margin-left: -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skills_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill {
+  font-size: 2.5vw;
+  margin-left: -35px;
+}
+
+progress {
+  margin-left: -35px;
+  height: 8px;
+  width: 335px;
+}
+
+.slkills__img {
+  width: 300px;
+  height: 300px;
+
+}
+/* SKILLS STYLES END */    
+
+/* HOW STYLES START */
+.how__iwork {
+  background-color: #EEEFF1;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.work__title {
+  margin-left: -20px;
+  font-size: 4vw;
+  width: 90%;
+}
+
+.work__text {
+margin-left: -10px;
+font-size: 2.5vw;
+width: 80%;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 96px;
+}
+
+.iframe{
+  margin-left: -30px;
+  width: 450px;
+  height: 350px;
+  border: none;
+}
+/* HOW STYLES END */ 
+
+/* STICKERS STYLES START */
+.portfolio__section {
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+
+.stickers__up, .stickers__down {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image__wrapper {
+  width: 125px;
+  height: 125px;
+  position: relative;
+  background-color: rgba(52, 84, 122, 0.0);
+  transition: background-color 0.3s;
+}
+
+
+.windows__img li img {
+  width: 90px;
+  height: 45px;
+  margin-right: 7px;
+  margin-left: 23px;
+}
+/* STICKERS STYLES END */
+
+/* NEED STYLES START */
+.need {
+  padding-top: 35px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.need__title {
+  margin-left: -80px;
+  font-size: 5vw;
+  font-weight: 500;
+}
+
+.need__text {
+  font-size: 3vw;
+  width: 80%;
+}
+
+.input__need {
+  display: block;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.form__input{
+display: grid;
+
+}
+
+.name, .email {
+  width: 200px;
+  height: 30px;
+}
+
+.message {
+  width: 430px;
+  height: 100px;
+}
+
+.send {
+  margin-left: 150px;
+  width: 160px;
+  height: 35px;
+}
+/* NEED STYLES END */
+
+/* FOOTER STYLES START */
+.footer__title__name {
+  font-size: 4vw;
+}
+
+.copyright {
+  font-size: 2vw;
+}
+
+.social__items img {
+  width: 30px;
+}
+/* FOOTER STYLES END */
+}
+
+@media only screen and (max-width: 480px) {
+
+  .fixed__container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
+        }
+  
+  /* HEADER STYLES START */
+  .logo img {
+    width: 45px;
+  }
+  
+  .menu__container {
+    padding-top: 30px;
+  }
+  
+  .logo {
+    padding-left: 10px;
+  }
+  
+  .header__menu{
+    display: none;
+  }
+  
+  .burger-icon {
+    display: block;
+  }
+  
+  .burger-icon span {
+    display: block;
+    height: 2px;
+    width: 24px;
+  }
+  /* HEADER STYLES END */
+  
+  /* MAIN STYLES START */
+  .section__container {
+    display: block;
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+  
+  .laptop{
+    padding: 0;
+    margin: 0 auto 40px auto;
+    text-align: center;
+  }
+  
+  .laptop img{
+    max-width: 180px;
+    max-height: 180px;
+  }
+  
+  .right__part {
+    display: block;
+    margin: 0 auto;
+    align-self: center;
+  }
+  
+  .caption {
+    margin-left: -135px;
+    font-size: 4vw;
+  }
+  
+  .description {
+    padding-left: 50px;
+    width: 65%;
+    font-size: 2.5vw;
+  }
+  
+  .button {
+    margin-left: -130px;
+    width: 160px;
+    height: 35px;
+  }
+  
+  /* MAIN STYLES END */
+  
+  /* ABOUT STYLES START */
+  .about_section{
+    display: block;
+    align-content: center;
+    padding-top: 50px;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .about {
+    margin-left: -40px;
+    font-size: 4vw;
+  }
+  
+  .about__text {
+    padding-left: 50px;
+    width: 70%;
+    font-size: 2.5vw;
+    
+  }
+  /* ABOUT STYLES END */
+  
+  
+  /* PROJECTS STYLES START */
+  .project {
+    display: block;
+    background-color: #34547A;
+    margin-top: -26px;
+  }
+    
+  .project__list {
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  
+  .project__item {
+    padding-top: 2px;
+  }
+  
+  .project__item img {
+    width: 70px;
+  }
+  /* PROJECTS STYLES END */
+  
+  /* SKILLS STYLES START */
+  .skills__container {
+    margin-top: -190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .skills__progress{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .progress__title {
+    font-size: 4.5vw;
+    margin-left: -43px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .skills_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skills__item {
+    padding-left: 70px;
+    margin-top: -25px;
+}
+  
+  .skill {
+    font-size: 2.5vw;
+    margin-left: -92px;
+  }
+  
+  progress {
+    margin-left: -92px;
+    height: 8px;
+    width: 300px;
+  }
+  
+  .slkills__img {
+    width: 250px;
+    height: 250px;
+  
+  }
+  /* SKILLS STYLES END */    
+  
+  /* HOW STYLES START */
+  .how__iwork {
+    background-color: #EEEFF1;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }
+  
+  .work__place {
+    padding-top: 30px;
+}
+
+  .work__title {
+    margin-left: -20px;
+    font-size: 4vw;
+    width: 90%;
+  }
+  
+  .work__text {
+  margin-left: -10px;
+  font-size: 2vw;
+  width: 70%;
+  line-height: 20px;
+  }
+  
+  .video {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+  }
+  
+  .iframe{
+    width: 280px;
+    height: 250px;
+    border: none;
+  }
+  /* HOW STYLES END */ 
+  
+  /* STICKERS STYLES START */
+  .portfolio__section {
+    padding-top: 28px;
+    padding-bottom: 40px;
+  }
+  
+  .stickers__up, .stickers__down {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .windows__img {
+    padding-top: 30px;
+}
+
+  .image__wrapper {
+    width: 120px;
+    height: 100px;
+  }
+  
+  
+  .windows__img li img {
+    width: 60px;
+    height: 23px;
+  }
+/* STICKERS STYLES END */
+  
+  /* NEED STYLES START */
+  .need {
+    padding-top: 35px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .need__title {
+    
+    margin-left: -80px;
+    font-size: 3vw;
+    font-weight: 500;
+  }
+  
+  .need__text {
+    margin-top: -30px;
+    font-size: 2vw;
+    width: 80%;
+  }
+  
+  .form__input{
+  margin-top: -30px;
+  display: grid;
+  padding-left: 40px;
+  }
+  
+  .name, .email {
+    font-size: 2vw;
+    width: 150px;
+    height: 20px;
+  }
+  
+  .message {
+    font-size: 2vw;
+    width: 330px;
+    height: 60px;
+    margin-bottom: -20px;
+  }
+  
+  .send {
+    margin-left: 120px;
+    width: 110px;
+    height: 20px;
+  }
+
+  .send a {
+    vertical-align: middle;
+    padding-top: 20px;
+    font-size: 10px;
+}
+
+  /* NEED STYLES END */
+  
+  /* FOOTER STYLES START */
+  .footer__title__name {
+    font-size: 4vw;
+  }
+  
+  .copyright {
+    font-size: 2vw;
+  }
+  
+  .social__items img {
+    width: 30px;
+  }
+  /* FOOTER STYLES END */
+}
