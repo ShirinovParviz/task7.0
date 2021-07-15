@@ -1,0 +1,508 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+font-family: 'Roboto';
+box-sizing: border-box;
+text-decoration: none; 
+font-size: 16px;  
+}
+
+/*Header Start*/
+
+.header, .main__section {
+    padding-top: 0;
+    background-color: #EEEFF1;
+}
+
+.fixed__container{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1240px;
+}
+
+.menu__container{
+    padding-top: 63px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 47px;
+}
+
+.header__menu{
+    padding-top: 6px;
+    margin-left: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+nav ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    letter-spacing: 1.6px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+    padding-right: 3px;
+    color: #000;
+}
+
+nav ul li a:hover {
+    color: #274e7e;
+}
+
+.burger-icon {
+    display: none;
+    margin-top: 1px;
+    margin-left: 20px;
+}
+
+.burger-icon span {
+    display: block;
+    height: 7px;
+    width: 45px;
+    background-color: #34547A;
+}
+
+.burger-icon span:nth-child(2){
+    margin: 6px 0;
+}
+
+/* HEADER END */
+.section__container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 132px;
+    padding-bottom: 155px;
+}
+
+.laptop {
+    margin-left: -1px;
+    padding-left: 136px;
+    padding-top: 23px;
+}
+
+.right__part{
+    width: 580px;
+}
+
+.caption {
+    padding-top: 1px;
+    font-size: 48px;
+    padding-bottom: 45px;
+    margin-left: 2px;
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+
+.description {
+    width: 520px;
+    font-size: 0.8vw;
+    margin-bottom: 51px;
+    line-height: 26px;
+    padding-left: 3px;
+    text-align: justify;
+    color: #727272;
+}
+
+.button {
+    margin-top: 1px;
+    margin-left: 3px;
+    padding-top: 2px;
+    width: 225px;
+    height: 65px;
+    letter-spacing: 2.3px;
+    background-color: #34547A;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 400;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 2px;
+}
+
+.button:hover {
+    background-color: #13427a;
+}
+
+/*ОБО МНЕ*/
+.about_section{
+    margin: 0 auto;
+}
+
+.about__me {
+    margin-left: 0;
+    padding-top: 112px;
+    width: 580px;
+    padding-bottom: 120px;
+    margin: 0 auto;
+}
+
+.about {
+    padding-left: 235px;
+    font-size: 32px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.about__text {
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 56px;
+    line-height: 25px;
+    font-size: 0.9vw;
+    text-align: center;
+    justify-content: center;
+    color: #727272;
+    letter-spacing: 0.2px;		 
+}
+
+/*ПРОЕКТЫ*/
+
+.project {
+    background-color: #34547A;
+    margin-top: -26px;
+}
+
+.project__list {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.project__item {
+    padding-top: 5px;
+    padding-right: 26px;
+    padding-left: 23px;
+}
+
+/*СКИЛЛЫ*/
+.section__skills {
+    margin-bottom: -8px;
+}
+
+.skills__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 105px 0;
+}
+
+.progress__title{
+    padding-top: 98px;
+    margin-bottom: 40px;
+    font-size: 32px;
+    margin-left: 34px;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+}
+
+.skills__item {
+    padding-left: 34px;
+    list-style-type: none;
+    margin-bottom: 20px;
+    line-height: 24px;
+    color: #727272;
+}
+
+.slkills__img {
+    margin-right: 16px;
+    margin-top: -3px;
+    width: 555px;
+    height: 450px;
+}
+
+
+progress {
+    height: 8px;
+    width: 445px;
+}
+
+/*Как я работаю*/
+
+.how__iwork {
+    background-color: #EEEFF1;
+}
+
+.work__place {
+    margin-left: 0;
+    padding-top: 100px;
+    width: 580px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.work__title {
+    padding-left: 188px;
+    font-size: 32px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 41px;
+}
+
+.work__text {
+    padding-left: 61px;
+    line-height: 25px;
+    font-size: 0.9vw;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+}
+
+.video {
+    padding-left: 53px;
+    padding-bottom: 96px;
+}
+
+.iframe{
+    width: 1110px;
+    height: 600px;
+    border: none;
+}
+
+/*STICKERS STYLES START*/
+
+.portfolio__section {
+    padding-top: 28px;
+    padding-bottom: 100px;
+}
+
+
+.sticker__container {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.stickers__up, .stickers__down {
+    display: flex;
+}
+
+.image__wrapper {
+    width: 480px;
+    height: 480px;
+    position: relative;
+    background-color: rgba(52, 84, 122, 0.0);
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+
+.image__wrapper::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(52, 84, 122);
+    opacity: 0;
+    background-image: url(/img/view.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    transition: opacity 0.3s;
+}
+
+.image__wrapper img {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    
+}
+
+.image__wrapper:hover::after {
+opacity: 0.8;
+}
+
+
+.windows__img{
+    padding-top: 72px;
+}
+
+.windows__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.windows__img li {
+    list-style-type: none;
+    
+}
+
+.windows__img li img {
+    width: 255px;
+    height: 120px;
+    margin-right: 7px;
+    margin-left: 23px;
+}
+/*STICKERS STYLES END*/
+
+/*NEED STYLES START*/
+
+.website {
+    background-color: #EEEFF1;
+}
+
+.need {
+    padding-top: 96px;
+    padding-left: 10px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 540px;
+}
+
+.need__title {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.need__text {
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-right: 12px;
+    font-size: 0.9vw;
+    line-height: 25px;
+    color: #727272;
+    padding-bottom: 59px;
+}
+
+.input__need {
+    padding-left: 8px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 540px;
+    padding-bottom: 98px;
+}
+
+.input__need ul li {
+    list-style-type: none;
+    padding-right: 29px;
+}
+
+.need__list {
+    display: flex;
+}
+
+.name, .email {
+    width: 255px;
+    height: 50px;
+    background-color: #fff;
+    color: #5F5D5D;
+    padding-left: 21px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.message{
+    width: 540px;
+    height: 175px;
+    background-color: #fff;
+    color: #5F5D5D;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    resize: none;
+    padding-top: 17px;
+}
+
+.send {
+    margin-top: 46px;
+    margin-left: 6px;
+    width: 190px;
+    height: 55px;
+    background-color: #34547A;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 2px;
+}
+
+.send a {
+    padding-left: 1px;
+    color: #FFFFFF;
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    font-weight: 400;
+}
+
+.send:hover {
+    background-color: #13427a;
+}
+/*NEED STYLES END*/
+
+/*FOOTER STYLES START*/
+
+.social__list li {
+    list-style-type: none;
+}
+
+.footer {
+    background-color: #34547A;
+    height: 151px;
+}
+
+.wrapper__footer {
+    margin: 0 auto;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__title {
+    margin-top: -14px;
+    padding-left: 54px;
+    justify-content: start;
+    text-align: start;
+    color: #FFFFFF;
+
+}
+
+.footer__title__name {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+.copyright {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+.social__list {
+    display: flex;
+    margin-top: 6px;
+    
+}
+
+.social__items {
+    margin-top: -3px;
+    padding-right: 20px;
+    padding-left: 2px;
+}
