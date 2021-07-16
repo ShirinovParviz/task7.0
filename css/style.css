@@ -7,9 +7,8 @@ padding: 0;
 font-family: 'Roboto';
 box-sizing: border-box;
 text-decoration: none; 
-font-size: 16px;  
+font-size: 16px;
 }
-
 /*Header Start*/
 
 .header, .main__section {
@@ -102,19 +101,17 @@ nav ul li a:hover {
     padding-top: 1px;
     font-size: 48px;
     padding-bottom: 45px;
-    margin-left: 2px;
+    padding-left: 2px;
     font-weight: 500;
-    letter-spacing: 0.1px;
 }
 
 .description {
-    width: 520px;
-    font-size: 0.8vw;
-    margin-bottom: 51px;
-    line-height: 26px;
     padding-left: 3px;
-    text-align: justify;
+    line-height: 26px;
+    font-size: 16px;
     color: #727272;
+    margin-bottom: 51px;
+    white-space: pre;
 }
 
 .button {
@@ -257,15 +254,17 @@ progress {
     justify-content: center;
     align-items: center;
     padding-bottom: 41px;
+    
 }
 
 .work__text {
-    padding-left: 61px;
+    padding-left: 56px;
     line-height: 25px;
     font-size: 0.9vw;
-    text-align: justify;
+    text-align: center;
     justify-content: center;
-    align-items: center;
+    color: #727272;
+    letter-spacing: 0.2px;
 }
 
 .video {
@@ -313,7 +312,7 @@ progress {
     height: 100%;
     background-color: rgba(52, 84, 122);
     opacity: 0;
-    background-image: url(/img/view.svg);
+    background-image: url(../img/view.svg);
     background-repeat: no-repeat;
     background-position: 50% 50%;
     transition: opacity 0.3s;
