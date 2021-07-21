@@ -136,11 +136,11 @@ nav ul li a:hover {
 
 /*ОБО МНЕ*/
 .about_section{
+    display: flex;
     margin: 0 auto;
 }
 
 .about__me {
-    margin-left: 0;
     padding-top: 112px;
     width: 580px;
     padding-bottom: 120px;
@@ -148,11 +148,10 @@ nav ul li a:hover {
 }
 
 .about {
-    padding-left: 235px;
+    margin-left: 16px;
     font-size: 32px;
     font-weight: 500;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 
@@ -163,7 +162,6 @@ nav ul li a:hover {
     line-height: 25px;
     font-size: 0.9vw;
     text-align: center;
-    justify-content: center;
     color: #727272;
     letter-spacing: 0.2px;		 
 }
@@ -238,33 +236,37 @@ progress {
 }
 
 .work__place {
-    margin-left: 0;
-    padding-top: 100px;
-    width: 580px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 101px;
+    width: 100%;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    text-align: center;
     padding-bottom: 50px;
 }
 
 .work__title {
-    padding-left: 188px;
     font-size: 32px;
     font-weight: 500;
     justify-content: center;
     align-items: center;
     padding-bottom: 41px;
-    
+    text-align: center;
+    margin-left: 16px;
 }
 
 .work__text {
-    padding-left: 56px;
+
     line-height: 25px;
     font-size: 0.9vw;
     text-align: center;
-    justify-content: center;
     color: #727272;
     letter-spacing: 0.2px;
+    width: 550px;
+    justify-content: center;
+    align-items: center;
 }
 
 .video {
@@ -282,7 +284,7 @@ progress {
 
 .portfolio__section {
     padding-top: 28px;
-    padding-bottom: 100px;
+    padding-bottom: 96px;
 }
 
 
@@ -296,8 +298,9 @@ progress {
 }
 
 .image__wrapper {
-    width: 480px;
+    width: 100%;
     height: 480px;
+    object-fit:cover;
     position: relative;
     background-color: rgba(52, 84, 122, 0.0);
     transition: background-color 0.3s;
@@ -354,34 +357,35 @@ opacity: 0.8;
 /*STICKERS STYLES END*/
 
 /*NEED STYLES START*/
-
 .website {
     background-color: #EEEFF1;
+    padding-top: 100px;
 }
 
 .need {
-    padding-top: 96px;
-    padding-left: 10px;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
     text-align: center;
     width: 540px;
+    padding-left: 12px;
 }
 
 .need__title {
     font-size: 32px;
     font-weight: 500;
+    text-align: center;
 }
 
 .need__text {
     padding-top: 40px;
-    padding-left: 20px;
-    margin-right: 12px;
     font-size: 0.9vw;
     line-height: 25px;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
     color: #727272;
     padding-bottom: 59px;
+    
 }
 
 .input__need {
@@ -429,7 +433,7 @@ opacity: 0.8;
 }
 
 .send {
-    margin-top: 46px;
+    margin-top: 45px;
     margin-left: 6px;
     width: 190px;
     height: 55px;

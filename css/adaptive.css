@@ -1,6 +1,4 @@
-
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1210px) {
   .fixed__container {
     box-sizing: border-box;
     margin: 0 auto;
@@ -55,14 +53,15 @@
         margin: 0 auto;
         padding: 0;
         text-align: center;
+        width: 80%;
     }
 
     .caption {
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 
     .description {
-        font-size: 2vw;
+        font-size: 2.5wv;
         margin-bottom: 70px;
         width: 100%;
         padding-left: 35px;
@@ -73,19 +72,23 @@
     .about_section{
       display: block;
       align-content: center;
-      padding-top: 50px;
+      padding-top: 10px;
       margin: 0 auto;
       justify-content: center;
     }
 
+    .about__me {
+      width: 50%;
+
+  }
+
     .about {
-      font-size: 3.5vw;
+      font-size: 3vw;
     }
 
     .about__text {
-      font-size: 1.8vw;
-      margin-bottom: 70px;
-
+      font-size: 1.2vw;
+      margin-bottom: 30px;
     }
 
 
@@ -164,7 +167,7 @@
 }
 
 .iframe{
-  width: 450px;
+  width: 750px;
   height: 350px;
   border: none;
 }
@@ -186,8 +189,9 @@
 }
 
 .image__wrapper {
-  width: 150px;
-  height: 150px;
+  width: 100%;
+  object-fit:cover;
+  height: 250px;
   position: relative;
   background-color: rgba(52, 84, 122, 0.0);
   transition: background-color 0.3s;
@@ -261,26 +265,25 @@
 .right__part {
   display: block;
   margin: 0 auto;
-  align-self: center;
+  width: 100%;
 }
 
 .caption {
-  margin-left: -40px;
-  font-size: 5vw;
+  margin: 0;
+  font-size: 4vw;
+
 }
 
 .description {
-  padding-left: 50px;
-  width: 75%;
-  font-size: 2.5vw;
+  margin-left: -10px;
+  font-size: 13px;
+  text-align: center;
 }
 
 .button {
-  margin-left: -35px;
   width: 160px;
   height: 35px;
 }
-
 /* MAIN STYLES END */
 
 /* ABOUT STYLES START */
@@ -292,15 +295,22 @@
   justify-content: center;
 }
 
+.about__me {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  margin-left: -20px;
+}
+
 .about {
-  font-size: 24px;
+  font-size: 4vw;
+  margin: 0;
 }
 
 .about__text {
-  width: 75%;
-  font-size: 2vw;
-  margin-bottom: 70px;
-  
+  margin: 0;
+  font-size: 14px;
+  text-align: center;
 }
 /* ABOUT STYLES END */
 
@@ -343,7 +353,7 @@
 }
 
 .progress__title {
-  font-size: 4.5vw;
+  font-size: 4vw;
   margin-left: -10px;
   display: flex;
   flex-wrap: wrap;
@@ -355,7 +365,7 @@
 }
 
 .skill {
-  font-size: 2.5vw;
+  font-size: 14px;
   margin-left: -35px;
 }
 
@@ -373,23 +383,23 @@ progress {
 /* SKILLS STYLES END */    
 
 /* HOW STYLES START */
-.how__iwork {
-  background-color: #EEEFF1;
+.work__place {
   display: block;
+  width: 100%;
   margin: 0 auto;
-  padding-bottom: 40px;
+
 }
 
 .work__title {
-  margin-left: -20px;
   font-size: 4vw;
-  width: 90%;
+  margin: 0;
+  text-align: center;
 }
 
 .work__text {
-margin-left: -10px;
-font-size: 2.5vw;
-width: 80%;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
 }
 
 .video {
@@ -423,8 +433,9 @@ width: 80%;
 }
 
 .image__wrapper {
-  width: 125px;
-  height: 125px;
+  width: 100%;
+  object-fit:cover;
+  height: 200px;
   position: relative;
   background-color: rgba(52, 84, 122, 0.0);
   transition: background-color 0.3s;
@@ -450,12 +461,12 @@ width: 80%;
 
 .need__title {
   margin-left: -80px;
-  font-size: 5vw;
+  font-size: 4vw;
   font-weight: 500;
 }
 
 .need__text {
-  font-size: 3vw;
+  font-size: 14px;
   width: 80%;
 }
 
@@ -496,7 +507,7 @@ display: grid;
 }
 
 .copyright {
-  font-size: 2vw;
+  font-size: 14px;
 }
 
 .social__items img {
@@ -562,47 +573,57 @@ display: grid;
   .right__part {
     display: block;
     margin: 0 auto;
-    align-self: center;
+    width: 100%;
   }
   
   .caption {
-    margin-left: -135px;
     font-size: 4vw;
+    margin: 0;
   }
   
   .description {
-    padding-left: 50px;
-    width: 65%;
-    font-size: 2.5vw;
+    margin: 0;
+    font-size: 0.7rem;
+    text-align: center;
+    padding-bottom: 25px;
   }
   
   .button {
-    margin-left: -130px;
-    width: 160px;
+    width: 130px;
     height: 35px;
+    font-size: 10px;
   }
   
   /* MAIN STYLES END */
   
   /* ABOUT STYLES START */
   .about_section{
-    display: block;
+    display: flex;
+    flex-direction: column;
     align-content: center;
     padding-top: 50px;
     margin: 0 auto;
     justify-content: center;
+    padding: 0;
+    
+  }
+  
+  .about__me {
+    margin: 0 auto;
+    width: 50%;
+       
   }
   
   .about {
-    margin-left: -40px;
     font-size: 4vw;
+    margin: 0 auto;
+    text-align: center;
   }
   
   .about__text {
-    padding-left: 50px;
-    width: 70%;
+    margin: 0;
     font-size: 2.5vw;
-    
+    text-align: center;
   }
   /* ABOUT STYLES END */
   
@@ -692,15 +713,14 @@ display: grid;
 }
 
   .work__title {
-    margin-left: -20px;
+    margin-left: -60px;
     font-size: 4vw;
-    width: 90%;
   }
   
   .work__text {
-  margin-left: -10px;
+  margin-left: -50px;
   font-size: 2vw;
-  width: 70%;
+  width: 65%;
   line-height: 20px;
   }
   
@@ -710,6 +730,7 @@ display: grid;
     justify-content: center;
     align-items: center;
     padding-bottom: 15px;
+    margin-left: -25px;
   }
   
   .iframe{
@@ -738,8 +759,9 @@ display: grid;
 }
 
   .image__wrapper {
-    width: 120px;
-    height: 100px;
+    width: 100%;
+    object-fit:cover;
+    height: 130px;
   }
   
   
@@ -753,14 +775,11 @@ display: grid;
   .need {
     padding-top: 35px;
     margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    width: 100%;
   }
   
   .need__title {
-    
-    margin-left: -80px;
+    text-align: center;
     font-size: 3vw;
     font-weight: 500;
   }
@@ -768,7 +787,7 @@ display: grid;
   .need__text {
     margin-top: -30px;
     font-size: 2vw;
-    width: 80%;
+    width: 100%;
   }
   
   .form__input{
@@ -874,26 +893,26 @@ display: grid;
   }
   
   .right__part {
-    display: block;
     margin: 0 auto;
-    align-self: center;
-  }
-  
-  .caption {
-    margin-left: -296px;
-    font-size: 4vw;
-  }
-  
-  .description {
-    margin-left: -74px;
-    width: 65%;
-    font-size: 2.5vw;
-    line-height: 18px;
-  }
+    padding: 0;
+    text-align: center;
+}
+
+.caption {
+  font-size: 5vw;
+  margin: 0
+}
+
+.description {
+    font-size: 2vw;
+    margin-bottom: 70px;
+    width: 100%;
+    padding-left: 35px;
+}
   
   .button {
+    margin: 0;
     font-size: 8px;
-    margin-left: -285px;
     width: 110px;
     height: 25px;
   }
@@ -903,27 +922,25 @@ display: grid;
   /* ABOUT STYLES START */
   .about_section{
     display: block;
-    align-content: center;
-    padding-top: 50px;
+    padding-top: 10px;
     margin: 0 auto;
-    justify-content: center;
   }
   
   .about__me {
-    margin-left: 0;
+    display: block;
     margin: 0 auto;
-}
-
+    width: 100%;
+  }
+  
   .about {
-    margin-left: -120px;
-    font-size: 4vw;
+    font-size: 18px;
+    margin: 0 0 0 -135px;
   }
   
   .about__text {
-    margin-left: -35px;
-    width: 50%;
-    font-size: 2.5vw;
-    
+    margin: 0px 0px 0px -35px;
+    font-size: 12px;
+    width: 100%;
   }
   /* ABOUT STYLES END */
   
